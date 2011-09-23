@@ -7,7 +7,7 @@ gem 'jquery-rails', '1.0.14'
 gem 'rails_autolink'
 
 platform :ruby do
-  gem 'mysql2', '~> 0.2.7'
+  gem 'mysql2', '~> 0.3.7'
   gem 'sqlite3' 
   gem 'unicorn'
 end
@@ -20,7 +20,11 @@ platforms :jruby do
   gem 'trinidad'
 end
 
-
+group :assets do
+  gem 'sass-rails', '~> 3.1.0'
+  gem 'coffee-rails', '~> 3.1.0'
+  gem 'uglifier'
+end
 
 
 # Bundle gems for the local environment. Make sure to
