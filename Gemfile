@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.10'
+gem 'rails', '3.1.0'
 
 gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
