@@ -45,7 +45,7 @@
 			 		<li> 
 					    <%= f.input :done ,   :input_html => { :class => 'box'  } , :label => false  %>
 					    <%= f.button :submit ,  :class => 'hidden'   %>
-					    <%= auto_link( h(task.name) ) %>
+					    <%= auto_link h(task.name) %>
 					    <p class="delete-task">
 					        <%= link_to 'X', task, :confirm => 'Are you sure?', :method => :delete %>
 					    </p>
