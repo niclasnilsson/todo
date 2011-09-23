@@ -15,9 +15,11 @@ end
 platforms :jruby do
   gem 'activerecord-jdbc-adapter'
   gem 'jruby-openssl'
-  gem 'jdbc-mysql', :require => false
-  gem 'jdbc-sqlite3', :require => false
+  gem 'activerecord-jdbcmysql-adapter', :require => false, :group => :production
+  gem 'activerecord-jdbcsqlite3-adapter', :require => false,
+    :groups => [:development, :test]
   gem 'trinidad'
+  gem 'jruby-rack', '~> 1.0.10'
 end
 
 group :assets do
