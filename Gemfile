@@ -5,6 +5,7 @@ gem 'rails', '3.1.0'
 gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
 gem 'rails_autolink'
+gem 'execjs', '~> 1.2.8'
 
 platform :ruby do
   gem 'mysql2', '~> 0.3.7'
