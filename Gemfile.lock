@@ -82,7 +82,7 @@ GEM
       raindrops (~> 0.6)
 
 PLATFORMS
-  ruby
+  java
 
 DEPENDENCIES
   activerecord-jdbc-adapter
